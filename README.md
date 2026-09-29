@@ -29,8 +29,6 @@ uv run pytest         # runs the tests
 2. Branch off `main`, one branch per change.
 3. Please dont commit directly to `main`.
 
-Changing what one module hands to another means updating [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) in the same PR and tagging that module's owner.
-
 ## Features
 
 Core features are the target for the February state competition. Stretch goals come after the full loop works.
