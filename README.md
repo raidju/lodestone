@@ -14,7 +14,7 @@ It runs on a laptop with no internet connection. Input is a microphone or a USB 
 
 You need [uv](https://docs.astral.sh/uv/) **0.12.19 or newer**. Older versions skip part of the project config and fail with a confusing TensorFlow error.
 
-Windows: 
+Windows: run command then restart powershell.
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 macOS: 
