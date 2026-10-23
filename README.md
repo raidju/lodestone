@@ -21,7 +21,7 @@ uv sync --locked      # installs Python 3.12 and every dependency from uv.lock
 uv run pytest         # runs the tests
 ```
 
-`--locked` makes the install fail loudly if `uv.lock` is out of date instead of quietly changing versions.
+`--locked` makes the install fail with a noti if `uv.lock` is out of date instead of quietly changing versions.
 
 ## Workflow
 
@@ -30,8 +30,8 @@ uv run pytest         # runs the tests
 3. Please dont commit directly to `main`.
 
 ## Features
-
-Core features are the target for the February state competition. Stretch goals come after the full loop works.
+most likely will change rough draft for now
+Core features should be completed by the February state competition.
 
 | Feature | What the user gets | Priority |
 | --- | --- | --- |
